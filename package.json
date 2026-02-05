@@ -12,7 +12,7 @@
   "dependencies": {
     "amqplib": "^0.10.4",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
     "dotenv": "^0.16.0"
   }
 }
