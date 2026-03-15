@@ -14,6 +14,7 @@ app.use(cors());
 // Get the RabbitMQ URL and port from environment variables
 const RABBITMQ_CONNECTION_STRING = process.env.RABBITMQ_CONNECTION_STRING || 'amqp://localhost';
 const PORT = process.env.PORT || 3000;
+const ADMIN_SECRET2 = 'supersecret123';
 const ADMIN_SECRET = 'supersecret123';
 
 // Define a POST route for creating orders
